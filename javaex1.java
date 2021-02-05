@@ -21,8 +21,12 @@ public class javaex1 {
 			System.out.println(byte_num);
 		}
 		int num =5/2;
-		//2가 출력되는 이유 정수끼리 연산을 실행하므로 num의 형이 무었이든 간에 2값이 나온다.
+		//2가 출력되는 이유 정수끼리 연산을 실행하으모 num의 형이 뮤었이든 간에 2값이 나온다.
 		System.out.println(num);
+		//두 값중 하나만 실수 형으로 바꾸어 계산하면 결과 또한 실수형으로 나오게 된다.
+		double d_num = 5/2.0;
+		System.out.println(d_num);
+
 	}
 
 }
@@ -32,3 +36,5 @@ public class javaex1 {
 // 1
 // -80
 // 바꿀수 없는 값
+//2
+//2.5
