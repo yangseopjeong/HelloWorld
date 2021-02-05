@@ -11,7 +11,7 @@ public class javaex1 {
 		int int_num2 =1200;
 		byte byte_num= (byte)int_num2;
 		System.out.println(byte_num);
-		//형의 크기만큼 바이트를 잘라서 저장하기 때문에 값이 다르게 바뀔수도 있다
+		//바이트를 잘라서 1바이트 잘라서 저장하기 때문에 값이 다르게 바뀔수도 있다
 		// 그럼으로 다음과 같이 if문을 사용해 바이트가 될수없는 수를 걸러낸다.
 		if(int_num2<Byte.MIN_VALUE||int_num2>Byte.MAX_VALUE) {
 			System.out.println("바꿀수 없는 값");
@@ -20,9 +20,13 @@ public class javaex1 {
 			byte_num= (byte)int_num2;
 			System.out.println(byte_num);
 		}
+		int num =5/2;
+		//2가 출력되는 이유 정수끼리 연산을 실행하므로 num의 형이 무었이든 간에 2값이 나온다.
+		System.out.println(num);
 	}
 
 }
+
 
 //실행시 콘솔 창
 // 1
